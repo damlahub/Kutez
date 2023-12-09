@@ -1,0 +1,90 @@
+#carousel {
+    width: 90%;
+}
+.carousel-title {
+    font-family: 'Avenir-Book';
+    font-size: 12pt;
+    letter-spacing: 1px;
+}
+/* Products - Product */
+.products {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45px;
+}
+
+.product .product-name {
+    font-family: 'Montserrat-Medium';
+    font-size: 15pt;
+}
+
+.product .product-price {
+    font-family: 'Montserrat-Medium';
+    font-size: 17pt;
+}
+
+.product-name:hover {
+    font-size: 17pt;
+}
+
+.product-price:hover  {
+    font-size: 19pt;
+}
+
+
+.product .color-name {
+    font-family: 'Avenir-Book';
+    font-size: 12pt;
+    margin-top: 5px;
+    user-select: none;
+}
+
+.product img.zoom {
+    transform: scale(2);
+    transition: transform 1s ease;
+}
+
+/* Colors */
+.color-options {
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#yellow-option {
+    background-color: #E6CA97;
+}
+
+#white-option {
+    background-color: #D9D9D9;
+}
+
+#bronz-option {
+    background-color: #E1A4A9;
+}
+/* All Products Button */
+.all-products {
+    font-family: 'Montserrat-Medium';
+    font-size: 17pt;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.all-products button {
+    margin-left: 5px;
+    background-color: white;
+    user-select: none;
+}
+
+.all-products.hovered {
+    background-color: black;
+}

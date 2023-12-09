@@ -1,0 +1,6 @@
+@import '../styles/fonts.css';
+
+.title{
+    font-family: 'Avenir-Medium' ;
+    letter-spacing: 1px;
+}
